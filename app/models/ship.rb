@@ -3,10 +3,10 @@ class Ship
 
   SHIPS=[]
 
-  def initialize(name,type,booty)
-    @name=name
-    @type=type
-    @booty=booty
+  def initialize(ship)
+    @name=ship[:name]
+    @type=ship[:type]
+    @booty=ship[:booty]
   end
 
   def self.all
