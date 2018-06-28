@@ -8,4 +8,8 @@ class Pirate
     @weight=weight
     @height=height
   end
+
+  def all
+    PIRATES
+  end
 end
