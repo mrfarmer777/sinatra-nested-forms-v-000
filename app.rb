@@ -9,7 +9,7 @@ module FormsLab
     end
 
     get "/new" do
-      erb /pirates/:new
+      erb :'pirates/new' #! How to route to nested views
     end
 
     post "/pirates" do
